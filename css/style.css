@@ -1,0 +1,41 @@
+html, body {
+	margin: 0;
+}
+
+:root {
+    --main-width: 640px;
+    --main-height: 480px;
+}
+canvas {
+    border: 1px black solid;
+}
+#canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+#canvas-rendering {
+    position: fixed;
+    left: 940px;
+    top: 0;
+    /* width: calc(var(--main-width) * 2);
+    height: calc(var(--main-height) * 3); */
+}
+
+#secondCanvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+
+#inputWindow {
+	position: absolute;
+	top: 10px;
+}
+
+#submitButton {
+	position: absolute;
+	top: 40px;
+}

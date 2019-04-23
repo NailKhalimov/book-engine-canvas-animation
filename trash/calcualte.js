@@ -1,0 +1,1 @@
+effectPoint_x - Math.sqrt(((pageHeight - bottomBandPoint_y) / Math.cos(effectAngle)) * ((pageHeight - bottomBandPoint_y) / Math.cos(effectAngle)) - pageHeight - bottomBandPoint_y * pageHeight - bottomBandPoint_y)
